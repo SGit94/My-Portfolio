@@ -1687,6 +1687,10 @@ video {
     display: flex;
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:items-start {
     align-items: flex-start;
   }
@@ -1711,5 +1715,11 @@ video {
 
   .lg\:pt-16 {
     padding-top: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:flex-row {
+    flex-direction: row;
   }
 }
